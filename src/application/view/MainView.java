@@ -10,8 +10,8 @@ public class MainView {
   private Label scoreLabel;
   private ImageView[] imageViews;
 
-  public void displayRemainingTime() {
-    throw new RuntimeException("Not Implemented");
+  public void displayRemainingTime(String time) {
+    this.timeRemainingLabel.setText("Time Remaining: time);
   }
 
   public void displayLabel(String score) {
